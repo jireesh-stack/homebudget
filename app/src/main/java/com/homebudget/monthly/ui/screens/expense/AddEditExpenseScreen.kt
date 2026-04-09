@@ -12,6 +12,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
@@ -302,16 +303,15 @@ fun BasicAmountField(value: String, onValueChange: (String) -> Unit, isError: Bo
             fontWeight = FontWeight.Bold,
             color = if (isError) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.onSurface
         ),
-        decorationBox = { inner ->
+        decorationBox = { innerTextField ->
             if (value.isEmpty()) {
                 Text("0.00", fontSize = 36.sp, color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.3f), fontWeight = FontWeight.Bold)
             }
-            inner()
+            innerTextField()
         }
     )
 }
 
-private val BasicTextField = androidx.compose.foundation.text.BasicTextField
 
 val categoryIcons = listOf("🍔","🚗","🛍️","🎮","💊","💡","📚","✈️","🏠","📦","💼","💻","📈","🏢","🎁","💰","🎵","🏋️","🌿","🐾","🎨","🔧","📱","🎓","🏥","🏪")
 val categoryColors = listOf("#FF6B6B","#4ECDC4","#45B7D1","#96CEB4","#FFEAA7","#DDA0DD","#98D8C8","#F7DC6F","#BB8FCE","#AEB6BF","#2ECC71","#27AE60","#F39C12","#E74C3C","#9B59B6","#1ABC9C","#3498DB","#E67E22","#16A085","#8E44AD")
