@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Gradient background circle -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M54,54 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" />
+
+    <!-- Dollar sign / coin icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 C39.64,28 28,39.64 28,54 C28,68.36 39.64,80 54,80 C68.36,80 80,68.36 80,54 C80,39.64 68.36,28 54,28 Z M57,68 L57,72 L51,72 L51,68 C46.58,67.16 43,63.72 43,59 L47,59 C47,62.31 50.13,65 54,65 C57.87,65 61,62.31 61,59 C61,55.48 57.96,54.17 53.12,52.79 C47.89,51.27 43,49.38 43,43 C43,38.28 46.58,34.84 51,34 L51,30 L57,30 L57,34 C61.42,34.84 65,38.28 65,43 L61,43 C61,39.69 57.87,37 54,37 C50.13,37 47,39.69 47,43 C47,46.52 50.04,47.83 54.88,49.21 C60.11,50.73 65,52.62 65,59 C65,63.72 61.42,67.16 57,68 Z" />
+</vector>

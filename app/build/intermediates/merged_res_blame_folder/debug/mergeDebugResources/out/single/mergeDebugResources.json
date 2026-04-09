@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-mdpi_ic_launcher_round.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-mdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xxxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xxhdpi_ic_launcher_round.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xxhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xxxhdpi_ic_launcher.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xxxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xhdpi_ic_launcher_round.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xhdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-hdpi_ic_launcher_round.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-hdpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-hdpi_ic_launcher.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-hdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/xml_file_provider_paths.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/xml/file_provider_paths.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-mdpi_ic_launcher.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-mdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xxhdpi_ic_launcher.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xxhdpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.homebudget.monthly.app-debug-57:/mipmap-xhdpi_ic_launcher.xml.flat",
+        "source": "com.homebudget.monthly.app-main-59:/mipmap-xhdpi/ic_launcher.xml"
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/vijesh/AppData/Local/Android/Sdk/build-tools/**)",
+      "Read(//c/Users/vijesh/AppData/Local/Android/Sdk/platforms/**)",
+      "Bash(npm --version)",
+      "Bash(npx expo:*)",
+      "Bash(where node:*)",
+      "Bash(node -e ':*)"
+    ]
+  }
+}
